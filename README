@@ -1,0 +1,19 @@
+CalculoMedia.c utiliza pipe para ler a saída de 3 valores de LeituraNumeros.c 
+e retornar a média entre os 3 valores de entrada.
+
+comece por compilar os dois programas com os seguintes comandos:
+
+$ gcc LeituraNumeros.c -o a
+$ gcc CalculoMedia.c -o b
+
+depois execute b com:
+
+$ ./b
+
+insira os 3 valores inteiros no terminal separados por um espaço, o output será 
+a média entre os valores.
+
+Outros métodos de repassar os valores de um programa para o outro incluem:
+*arquivos
+*memória compartilhada
+*mensagens
